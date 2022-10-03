@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* Navbar */
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e84848;
+  align-items: center;
+  padding: 0 16px;
+}
+a {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.logo {
+  width: 150px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+/* Header */
+
+header {
+  background-color: #ffe7e7;
+  height: calc(100vh-70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 72px;
+  color: #885ab8;
+}
+
+.subheader {
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+button {
+  margin-top: 50px;
+  background-color: #e84848;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#About,
+#community,
+#contact,
+footer {
+  padding: 48px 0;
+}
+/* About */
+
+#About {
+  background-color: #ffe7e7;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.section__discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__img--wrapper {
+  width: 40%;
+  padding: 0 24px;
+}
+img {
+  width: 100%;
+}
+.section__discription--wrapper {
+  width: 60%;
+  padding: 0 24px;
+}
+.section__discription--para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* Community */
+
+#community {
+  background-color: #ffe7e7;
+  height: 100vh;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #ffe7e7;
+}
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+/* footer */
+
+footer {
+  background-color: #e84848;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo {
+  max-width: 280px;
+  margin-bottom: 16px;
+}
+.footer__links {
+  margin-bottom: 32px;
+}
+.footer__link {
+  padding: 0 16px;
+}
