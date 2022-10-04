@@ -17,3 +17,10 @@ Wrote a blog about [CSS Crash Course](https://avadhut.hashnode.dev/css-crash-cou
 
 Applied CSS to website.
 
+### Day4
+
+Made a website using HTML & CSS.
+
+learned how to use flexbox properties
+
+learned about Relative length units

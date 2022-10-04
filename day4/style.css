@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+}
+* {
+  scroll-behavior: smooth;
+}
+nav {
+  height: 4vmax;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 5;
+}
+.left {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.left > a {
+  text-decoration: none;
+  color: crimson;
+  font-size: 2vmax;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.mid {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: stretch;
+}
+.mid > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid > a:hover {
+  border-bottom: 2px solid crimson;
+}
+.right {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.right > img {
+  width: 2.5vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  height: 90vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(124, 163, 163),
+    rgb(109, 109, 194)
+  );
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+#rightContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+#rightContainer > img {
+  margin-right: 7vmax;
+  filter: drop-shadow(0 0 15px black);
+}
+#leftContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3vmax;
+  box-sizing: border-box;
+  justify-content: center;
+}
+#leftContainer > h1 {
+  font-size: 5vmax;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#leftContainer > h2 {
+  margin-top: -8%;
+  font-size: 2vmax;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#leftContainer > p {
+  margin-left: 2%;
+  font-size: 1.2vmax;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#leftContainer > button {
+  margin-left: 2%;
+  width: 11vmax;
+  padding: 0.8vmax;
+  border: none;
+  border-radius: 2vmax;
+  color: white;
+  background-color: crimson;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#leftContainer > button:hover {
+  background-color: rgb(153, 35, 59);
+}
+/* Products */
+
+#products > h1 {
+  text-align: center;
+  margin: 5vmax auto;
+  font-size: 2.5vmax;
+  border-bottom: 5px solid crimson;
+  width: 20vw;
+  padding: 1vmax;
+}
+.productsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 80vw;
+  margin: auto;
+}
+.product {
+  height: 30vmax;
+  display: flex;
+  margin: 1vmax;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.product > img {
+  width: 20vmax;
+}
+.product > h4 {
+  margin: 2%;
+}
+.product > h5 {
+  margin: 0%;
+}
+.product:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  padding: 1vmax;
+  background-color: rgb(54, 51, 51);
+  margin-top: 10vmax;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > p {
+  text-align: center;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+.midFooter {
+  width: 60%;
+  text-align: center;
+}
+
+.midFooter >h1{
+  font-size: 4vmax;
+  color: crimson;
+}
+.midFooter > p{
+  max-width: 60%;
+  margin: 1vmax auto;
+}
+
+
+
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightFooter > h4{
+  font-size: 1.5vmax;
+  text-decoration: underline;
+}
+.rightFooter >a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.4vmax;
+  margin: 0.5vmax;
+}
