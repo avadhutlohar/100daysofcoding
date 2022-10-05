@@ -1,21 +1,27 @@
-
 # 100 days of coding
 
 ### Day 1
-Refreshed concept of GitHub and 
+
+Refreshed concept of GitHub and
 Wrote a Blog about [How to use GitHub](https://avadhut.hashnode.dev/setting-up-github) on Hashnode.
 
 ### Day 2
+
 Refreshed concept of HTML and
 Wrote a blog about [HTML Crash Course](https://avadhut.hashnode.dev/html-crash-course) on Hashnode
 
 Created Basic structure for website using HTML
 
+![Webpage](./day2/ss.PNG)
+
 ### Day 3
-Refreshed concept of CSS &  Flexbox and
+
+Refreshed concept of CSS & Flexbox and
 Wrote a blog about [CSS Crash Course](https://avadhut.hashnode.dev/css-crash-course) & [Flexbox](https://avadhut.hashnode.dev/flexbox) on Hashnode
 
 Applied CSS to website.
+
+![Webpage](./day3/ss.PNG)
 
 ### Day4
 
@@ -24,3 +30,13 @@ Made a website using HTML & CSS.
 learned how to use flexbox properties
 
 learned about Relative length units
+
+![Webpage](./day4/ss.PNG)
+
+### Day5
+
+learned how to use scss
+
+created menu using javascript
+
+![Webpage](./day5/ss.PNG)
