@@ -40,3 +40,11 @@ learned how to use scss
 created menu using javascript
 
 ![Webpage](./day5/ss.PNG)
+
+### Day5
+
+learned some Javascript functions
+
+Create To-Do List website
+
+![Webpage](./day6/ss.PNG)
