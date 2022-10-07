@@ -41,10 +41,16 @@ created menu using javascript
 
 ![Webpage](./day5/ss.PNG)
 
-### Day5
+### Day6
 
 learned some Javascript functions
 
 Create To-Do List website
 
 ![Webpage](./day6/ss.PNG)
+
+### Day7
+
+Created Library website
+
+![Webpage](./day7/ss.PNG)
