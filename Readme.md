@@ -54,3 +54,13 @@ Create To-Do List website
 Created Library website
 
 ![Webpage](./day7/ss.PNG)
+
+### Day8
+
+Wrote a blog about [How to deploy a website using netlify](https://avadhut.hashnode.dev/netlify) on Hashnode.
+
+Made website responsive.
+
+[Live Link](https://library-website01.netlify.app/)
+
+![Webpage](./day8/ss.PNG)
