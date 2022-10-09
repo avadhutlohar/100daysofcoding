@@ -64,3 +64,8 @@ Made website responsive.
 [Live Link](https://library-website01.netlify.app/)
 
 ![Webpage](./day8/ss.PNG)
+
+
+### Day9
+
+Wrote a blog about [Javascript](https://avadhut.hashnode.dev/javascript-notes) on Hashnode.
