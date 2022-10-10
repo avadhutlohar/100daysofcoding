@@ -69,3 +69,8 @@ Made website responsive.
 ### Day9
 
 Wrote a blog about [Javascript](https://avadhut.hashnode.dev/javascript-notes) on Hashnode.
+
+
+### Day10
+
+Wrote a blog about [Javascript](https://avadhut.hashnode.dev/javascript-notes-2) on Hashnode.
