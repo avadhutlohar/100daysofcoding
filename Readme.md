@@ -78,3 +78,7 @@ Wrote a blog about [Javascript](https://avadhut.hashnode.dev/javascript-notes-2)
 ### Day11
 
 Solved 14 Beginner problems of JavaScript.
+
+### Day12
+
+Solved 12 Medium problems of JavaScript.
