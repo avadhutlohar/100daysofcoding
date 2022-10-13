@@ -82,3 +82,7 @@ Solved 14 Beginner problems of JavaScript.
 ### Day12
 
 Solved 12 Medium problems of JavaScript.
+
+### Day13
+
+Solved 3 Advanced level problems of JavaScript.
