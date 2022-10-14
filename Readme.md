@@ -86,3 +86,9 @@ Solved 12 Medium problems of JavaScript.
 ### Day13
 
 Solved 3 Advanced level problems of JavaScript.
+
+### Day14
+
+Created Basic structure for Portfolio website using HTML
+
+![Webpage](./day14/ss.PNG)
