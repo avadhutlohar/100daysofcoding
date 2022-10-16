@@ -100,3 +100,18 @@ Started to learn React
 - learned about Reusable Components & Props
 
 [Notes](https://avadhut.hashnode.dev/react-crash-course)
+
+### Day 16
+
+Learned about :
+
+- Event Handlers
+
+- React Hooks
+
+- Routing
+
+- API Integration
+
+
+[Notes](https://avadhut.hashnode.dev/react-crash-course)
