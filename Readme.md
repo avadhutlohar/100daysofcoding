@@ -115,3 +115,11 @@ Learned about :
 
 
 [Notes](https://avadhut.hashnode.dev/react-crash-course)
+
+### Day 17
+
+Learned about :
+
+- Lifecycle Hooks
+
+- Packaging and PropTypes
