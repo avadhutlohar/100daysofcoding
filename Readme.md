@@ -129,3 +129,9 @@ Learned about :
 Created Alarm Clock website
 
 ![Webpage](./day18/ss.PNG)
+
+### Day19
+
+Created Notes app website
+
+![Webpage](./day19/ss.PNG)
