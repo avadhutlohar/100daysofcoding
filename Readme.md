@@ -135,3 +135,9 @@ Created Alarm Clock website
 Created Notes app website
 
 ![Webpage](./day19/ss.PNG)
+
+### Day20
+
+Created Weather app website
+
+![Webpage](./day20/ss.PNG)
