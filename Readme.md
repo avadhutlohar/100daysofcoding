@@ -148,3 +148,9 @@ Created Calculator app website
 
 ![Webpage](./day21/ss.PNG)
 
+### Day22
+
+Created Password generator website
+
+![Webpage](./day22/ss.PNG)
+
