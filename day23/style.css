@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    
+    
+  }
+  body {
+    margin: 80px 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(188, 164, 211, 0.904);
+    color: rgb(12, 12, 12);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* min-height: 100vh; */
+    text-align: center;
+  }
+h1{
+    color: #601180;
+    font-size: 40px;
+}
+p{
+    font-size: 40px;
+    color: #601180;
+}
+  .open-picker{
+    display: block;
+  background-color: #601180;
+  color: rgb(238, 232, 232);
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  }
+  input{
+    display: block;
+  background-color: #ecb602;
+  color: rebeccapurple;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  }

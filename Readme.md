@@ -154,3 +154,9 @@ Created Password generator website
 
 ![Webpage](./day22/ss.PNG)
 
+### Day23
+
+Created Image color picker website
+
+![Webpage](./day23/ss.PNG)
+
