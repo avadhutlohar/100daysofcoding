@@ -160,3 +160,8 @@ Created Image color picker website
 
 ![Webpage](./day23/ss.PNG)
 
+### Day23
+
+Created Simple interest Calculator website
+
+![Webpage](./day24/ss.PNG)
