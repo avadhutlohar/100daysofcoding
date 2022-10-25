@@ -65,11 +65,9 @@ Made website responsive.
 
 ![Webpage](./day8/ss.PNG)
 
-
 ### Day9
 
 Wrote a blog about [Javascript](https://avadhut.hashnode.dev/javascript-notes) on Hashnode.
-
 
 ### Day10
 
@@ -112,7 +110,6 @@ Learned about :
 - Routing
 
 - API Integration
-
 
 [Notes](https://avadhut.hashnode.dev/react-crash-course)
 
@@ -160,8 +157,14 @@ Created Image color picker website
 
 ![Webpage](./day23/ss.PNG)
 
-### Day23
+### Day24
 
 Created Simple interest Calculator website
 
 ![Webpage](./day24/ss.PNG)
+
+### Day25
+
+Created To-do App using ReactJs.
+
+![Webpage](./day25/ss.PNG)
