@@ -180,3 +180,9 @@ Created Copy in Clipboard website
 Created Analog Clock website
 
 ![Webpage](./day27/ss.PNG)
+
+### Day28
+
+Created File Upload with Progress Bar
+
+![Webpage](./day28/ss.PNG)
