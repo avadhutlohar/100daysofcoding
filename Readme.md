@@ -186,3 +186,9 @@ Created Analog Clock website
 Created File Upload with Progress Bar
 
 ![Webpage](./day28/ss.PNG)
+
+### Day29
+
+Created OTP field
+
+![Webpage](./day29/ss.PNG)
