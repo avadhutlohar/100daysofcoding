@@ -198,3 +198,9 @@ Created OTP field
 Created Price Range Slider
 
 ![Webpage](./day30/ss.PNG)
+
+### Day31
+
+Created Simple Countdown Timer
+
+![Webpage](./day31/ss.PNG)
