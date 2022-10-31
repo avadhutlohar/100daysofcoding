@@ -192,3 +192,9 @@ Created File Upload with Progress Bar
 Created OTP field
 
 ![Webpage](./day29/ss.PNG)
+
+### Day30
+
+Created Price Range Slider
+
+![Webpage](./day30/ss.PNG)
