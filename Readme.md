@@ -204,3 +204,10 @@ Created Price Range Slider
 Created Simple Countdown Timer
 
 ![Webpage](./day31/ss.PNG)
+
+
+### Day32
+
+Created Add to cart Button
+
+![Webpage](./day32/ss.PNG)
