@@ -211,3 +211,10 @@ Created Simple Countdown Timer
 Created Add to cart Button
 
 ![Webpage](./day32/ss.PNG)
+
+
+### Day33
+
+Created Search Bar
+
+![Webpage](./day33/ss.PNG)
