@@ -218,3 +218,9 @@ Created Add to cart Button
 Created Search Bar
 
 ![Webpage](./day33/ss.PNG)
+
+### Day34
+
+Created Spin Wheel
+
+![Webpage](./day34/ss.PNG)
