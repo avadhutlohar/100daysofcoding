@@ -224,3 +224,9 @@ Created Search Bar
 Created Spin Wheel
 
 ![Webpage](./day34/ss.PNG)
+
+### Day35
+
+Created BMI Calculator
+
+![Webpage](./day35/ss.PNG)
