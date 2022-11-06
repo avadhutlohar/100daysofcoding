@@ -230,3 +230,15 @@ Created Spin Wheel
 Created BMI Calculator
 
 ![Webpage](./day35/ss.PNG)
+
+### Day36
+
+Created Circular Progress Bar Using HTML & CSS
+
+![Webpage](./day36/ss.PNG)
+
+### Day37
+
+Created Video Player Using HTML & CSS
+
+![Webpage](./day37/ss.PNG)
