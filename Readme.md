@@ -242,3 +242,9 @@ Created Circular Progress Bar Using HTML & CSS
 Created Video Player Using HTML & CSS
 
 ![Webpage](./day37/ss.PNG)
+
+### Day38
+
+Created Newsletter  Using HTML & CSS
+
+![Webpage](./day38/ss.PNG)
