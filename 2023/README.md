@@ -20,3 +20,7 @@ https://vitejs.dev/
   - cd vitereact
   - npm install
   - npm run dev
+
+
+# Day2
+
