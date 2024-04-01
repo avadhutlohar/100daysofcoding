@@ -47,262 +47,176 @@ Explanation: The output will be 4, not 5. This is because callback() is invoked 
 
 Explanation: The calc object is set up to perform chained arithmetic operations. The add(), subtract(), and multiply() methods update the total property of the calc object accordingly, allowing chaining of operations like .add().multiply().subtract().add().
 
-# OBJECT Interview Questions
+# THIS KEYWORD
 
-## Question 1 : Delete keyword in Object
-
+## Question 1 : this keyword
 ```javascript
-const func = (function (a) {
-  delete a;
-  return a;
-})(5);
+let a = 5
 
-console.log(func);
+console.log(this.a);
 
-// Computed Properties
 
-let property = "firstName";
-let name = "Piyush Agarwal";
-
-let person = {
-  [property]: name,
-};
-
-// Accessing
-alert(bag.firstName);
-alert(bag[property]);
-
-// Looping in Object
-
+```
+## Question 2 : this inside Method
+```javascript
 let user = {
-  name: "Piyush",
-  age: 24,
+    name: "Piyush",
+    age: 24,
+      getDetails() {
+          console.log(this.name)
+      }
 };
+  
+user.getDetails(); 
 
-for (let key in user) {
-  alert(key); // name, age
-  alert(user[key]); // Piyush, 24
-}
+
 ```
-
-## Question 2 : Output
-
+## Question 3 : nested object 
 ```javascript
-const obj = { a: "one", b: "two", a: "three" };
-console.log(obj);
-```
-
-## Question 3 : Create a function multiplyByTwo(obj) that multiplies all numeric property values of obj by 2.
-
-```javascript
-let nums = {
-  a: 100,
-  b: 200,
-  title: "My nums",
+let user = {
+    name: "Piyush",
+    age: 24,
+      childObj:{
+          newName:"Roadside Coder",
+          getDetails() {
+              console.log(this.newName, "and" ,this.name)
+          }
+      }
 };
+  
+user.childObj.getDetails(); 
 
-multiplyNumeric(menu);
 
-function multiplyByTwo(obj) {
-  for (let key in obj) {
-    if (typeof obj[key] == "number") {
-      obj[key] *= 2;
+```
+## Question 4 : Class & Constructor
+```javascript
+class user {
+    constructor(n){
+        this.name = n
     }
-  }
+    getName(){
+        console.log(this.name);
+    }
 }
+
+const User = new user("Piyush") 
+User.getName();
+
+
 ```
-
-## Question 4 : Output (Important)
-
+## Question 5 : Output
 ```javascript
-const a = {};
-const b = { key: "b" };
-const c = { key: "c" };
-
-a[b] = 123;
-a[c] = 456;
-
-console.log(a[b]);
-```
-
-## Question 5 : JSON.Stringify and JSON.parse
-
-```javascript
-const userOne = {
-  name: "piyush",
-  age: 87,
+const user = {
+    firstName: 'Piyush!',
+    getName() {
+      const firstName = 'Piyush!';
+      return this.firstName;
+    }
 };
 
-const strObj = JSON.stringify(userOne);
+console.log(object.getMessage());
 
-console.log(JSON.parse(strObj));
+
 ```
-
-## Question 6 : Output
-
+## Question 6 : What is the result of accessing its `ref`? Why?
 ```javascript
-console.log([..."Lydia"]);
+function makeUser() {
+    return {
+      name: "John",
+      ref: this
+    };
+}
+  
+let user = makeUser();
+  
+alert( user.ref.name ); // What's the result?
+
+
 ```
-
-## Question 7 : Output
-
+## Question 7 : What logs to console the following code snippet:
 ```javascript
-const user = { name: "Lydia", age: 21 };
-const admin = { admin: true, ...user };
+const user = {
+    name: 'Piyush Agarwa;!',
+    logMessage() {
+      console.log(this.name); 
+    }
+};
+setTimeout(user.logMessage, 1000);
 
-console.log(admin);
+
 ```
-
 ## Question 8 : Output
-
 ```javascript
-const settings = {
-  username: "lydiahallie",
-  level: 19,
-  health: 90,
+const user = {
+    name: 'Piyush',
+    greet() {
+      return `Hello, ${this.name}!`;
+    },
+    farewell: () => {
+      return `Goodbye, ${this.name}!`;
+    }
 };
+console.log(user.greet());    
+console.log(user.farewell()); 
 
-const data = JSON.stringify(settings, ["level", "health"]);
-console.log(data);
+
 ```
-
-## Question 9 : Output
-
+## Question 9 :
 ```javascript
-const shape = {
-  radius: 10,
-  diameter() {
-    return this.radius * 2;
-  },
-  perimeter: () => 2 * Math.PI * this.radius,
+let calculator = {
+    sum() {
+      return this.a + this.b;
+    },
+  
+    mul() {
+      return this.a * this.b;
+    },
+  
+    read() {
+      this.a = +prompt('a?', 0);
+      this.b = +prompt('b?', 0);
+    }
 };
+  
+calculator.read();
+alert( calculator.sum() );
+alert( calculator.mul() );
 
-console.log(shape.diameter());
-console.log(shape.perimeter());
 ```
-
-## Question 10 : Destructuring in object
-
+## Question 10 : Output
 ```javascript
-let user = {
-  name: "Piyush",
-  age: 24,
-  fullName: {
-    firstName: "Piyush",
-    lastName: "Agarwal",
-  },
-};
-
-const name = "Roadside Coder"; // to change name or renaming
-
-const {
-  fullName: { firstName },
-} = user;
-
-console.log(firstName);
-```
-
-## Question 11 : Output
-
-```javascript
-function getItems(fruitList, ...args, favoriteFruit) {
-    return [...fruitList, ...args, favoriteFruit]
+var length = 4;
+function callback() {
+  console.log(this.length); // What is logged?
 }
-
-getItems(["banana", "apple"], "pear", "orange");
-
-
-```
-
-## Question 12 : Output
-
-```javascript
-let c = { greeting: "Hey!" };
-let d;
-
-d = c;
-c.greeting = "Hello";
-console.log(d.greeting);
-```
-
-## Question 13 : Output
-
-```javascript
-console.log({ a: 1 } == { a: 1 });
-console.log({ a: 1 } === { a: 1 });
-```
-
-## Question 14 : Output
-
-```javascript
-let person = { name: "Lydia" };
-const members = [person];
-person = null;
-
-console.log(members);
-```
-
-## Question 15 : Output
-
-```javascript
-const value = { number: 10 };
-
-const multiply = (x = { ...value }) => {
-  console.log((x.number *= 2));
+const object = {
+  length: 5,
+  method(callback) {
+    callback();
+  }
 };
+object.method(callback, 1, 2);
 
-multiply();
-multiply();
-multiply(value);
-multiply(value);
 ```
+## Question 11 : Implement this Code
+```javscript
+const result = calc.add(10).multiply(5).subtract(30).add(10)
+console.log(result.total);
 
-## Question 16 : Output
-
-```javascript
-const value = { number: 10 };
-
-const multiply = (x = { ...value }) => {
-  console.log((x.number *= 2));
+// My Answer
+var calc = {
+  total: 0,
+  add(a) {
+    this.total += a;
+    return this;
+  },
+  subtract(a) {
+    this.total -= a;
+    return this;
+  },
+  multiply(a) {
+    this.total *= a;
+    return this;
+  },
 };
-
-multiply();
-multiply();
-multiply(value);
-multiply(value);
-```
-
-## Question 17 : Output
-
-```javascript
-function changeAgeAndReference(person) {
-  person.age = 25;
-  person = {
-    name: "John",
-    age: 50,
-  };
-
-  return person;
-}
-
-const personObj1 = {
-  name: "Alex",
-  age: 30,
-};
-
-const personObj2 = changeAgeAndReference(personObj1);
-
-console.log(personObj1); // -> ?
-console.log(personObj2); // -> ?
-```
-
-## Question 18 : Shallow copy VS Deep copy
-
-```javascript
-// Q - How to clone an object without referencing its keys to original object
-
-const obj = { a: 1, b: 2 };
-const objclone = Object.assign({}, obj);
-const objclone = JSON.parse(JSON.stringify(employee));
-const objclone = { ...obj };
 ```
