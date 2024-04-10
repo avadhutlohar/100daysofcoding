@@ -82,3 +82,96 @@
 //   console.log("Temperature:", weatherForecast.temperature + "°C");
 //   console.log("Conditions:", weatherForecast.conditions);
 //   console.log("Humidity:", weatherForecast.humidity + "%");
+
+// Day2
+
+// Problem 1: NPM and Package.json
+// You're starting a new project and want to manage your project's dependencies using NPM. Explain the purpose of NPM and how it helps in managing packages. Create a simple package.json file for your project, specifying the name, version, and a few dependencies of your choice.
+// NPM (Node Package Manager) is a tool that helps you manage libraries and packages in your Node.js projects. It allows you to easily install, update, and remove packages that you need for your project.
+
+
+// Problem 2: Writing Functions
+// Write a JavaScript function named calculateCircleArea that takes the radius of a circle as a parameter and returns the area of the circle. You can use the formula area = π * radius^2. Test the function with a few different radii.
+ 
+// function calculateCircleArea(radius) {
+//   const area = Math.PI * radius ** 2;
+//   return area;
+// }
+
+// console.log(calculateCircleArea(5));
+
+
+
+// Problem 3: Callback Functions
+// Create a function named performOperation that takes two numbers and a callback function as parameters. The callback function should determine the operation to be performed (addition, subtraction, multiplication, or division) on the two numbers. Call the performOperation function with different numbers and callback functions for each mathematical operation.
+
+// function performOperation(num1, num2, callback) {
+//   const result = callback(num1, num2);
+//   console.log(result);
+// }
+
+// function addition(num1, num2) {
+//   return num1 + num2;
+// }
+
+// function subtraction(num1, num2) {
+//   return num1 - num2;
+// }
+
+// function multiplication(num1, num2) {
+//   return num1 * num2;
+// }
+
+// function division(num1, num2) {
+//   return num1 / num2;
+// }
+
+// performOperation(10, 5, addition);
+// performOperation(10, 5, subtraction);
+// performOperation(10, 5, multiplication);
+// performOperation(10, 5, division);
+
+
+
+// Problem 4: Using the 'fs' Module
+// Write a Node.js program that uses the fs module to read the contents of a text file named "notes.txt" and display them in the console.
+
+// const fs = require("fs");
+
+// fs.readFile("notes.txt", "utf8", (err, data) => {
+//   if (err) {
+//     console.error(err);
+//     return;
+//   }
+//   console.log(data);
+// });
+
+
+
+// Problem 5: Using 'os' Module
+// Create a Node.js program that uses the os module to display the following system information:
+// ● Total memory available (in bytes)
+// ● Free memory available (in bytes)
+// ● Operating system platform
+// ● Number of CPU cores
+
+// const os = require("os");
+
+// console.log(os.totalmem());
+// console.log(os.freemem());
+// console.log(os.platform());
+// console.log(os.cpus().length);
+
+
+// Problem 6: 'lodash' Usage
+// Use the lodash library to solve the following problem: Given an array of numbers, write a function that returns the sum of all even numbers in the array. Use the _.sumBy function from lodash to achieve this.
+
+// const _ = require("lodash");
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const sum = _.sumBy(numbers, (number) => {
+//   if (number % 2 === 0) {
+//     return number;
+//   }
+// });
+// console.log(sum);
